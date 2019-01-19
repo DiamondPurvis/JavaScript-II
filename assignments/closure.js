@@ -6,11 +6,14 @@ function whoareyou(description) {
   const type = dolphin;
 } 
 
-
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
+  count = 0;
+  return () => ++count;
   // Return a function that when invoked increments and returns a counter variable.
 };
+newcounter = (counter());
+console.log()(new());
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2

@@ -1,5 +1,10 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function whoareyou(description) {
+  const name = 'diamond';
+  const sound = ruff;
+  const type = dolphin;
+} 
 
 
 // ==== Challenge 2: Create a counter function ====
